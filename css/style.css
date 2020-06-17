@@ -1,0 +1,150 @@
+
+/* primary color: #fcae77;
+navbar: #473325*/
+
+body{
+  
+    font-family:Oswald, sans-serif!important;
+    color: #30271c;
+    background-color: #eae7de;
+ 
+    font-family: Impact, sans-serif;
+    font-size: small;
+
+}
+
+
+
+#nav{
+    font-size: small;
+    padding: 0px!important;
+    background-color:  #ffffff;
+   
+}
+#nav a{
+    color: #30271c;
+    font-size: 10px;
+    font-family: Impact, sans-serif;
+}
+#nav a:hover{
+    color:#c7a17a ;
+    font-size: 10px;
+    font-family: Impact, sans-serif;
+}
+nav a .logo{
+    width: 30px;
+    height: 30px;
+    
+}
+#menu img{
+    width: 300px;
+    height: 200px;
+}
+.btn-color{
+    background-color: #c7a17a;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 5px 10px;
+    font-family: Impact, sans-serif;
+}
+.btn-color :hover{
+    background-color: #c7a17a;
+    color: #30271c;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 5px 10px;
+    font-family: Impact, sans-serif;
+}
+#reservation{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/city-4298285_1280.jpg);
+    background-position: center;
+    display: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+
+    /*footer section*/
+
+
+#footer-section{
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../image/cafe-984275_1280.jpg);
+    background-position: center;
+    display: cover;
+    
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+#footer-section h4,h6{
+    font-family: Impact, sans-serif;
+    font-size: large; 
+    padding-bottom: 5px;   
+}
+
+/*manu*/
+#menu h4{
+    font-family: Impact, sans-serif;
+    font-size: small;
+    
+}
+#menu p{
+    
+}
+/*reservation*/
+#reservation h5{
+    font-family: Impact, sans-serif;
+}
+#reservation .col-md-6{
+    align-items: center;
+}
+#reservation .col-md-6 img{
+    width: 120px;
+    height: 100px;
+    margin: 55px;   
+}
+#blog .col-md-3 h4{
+    font-family: Impact, sans-serif;
+    font-size: small;
+}
+#blog .col-md-3 img{
+    width: 50px;
+    height: 70px;
+}
+#card .col-md-8 h5{
+    font-family: Impact, sans-serif;
+}
+#carouselExampleCaptions .carousel-inner .caption{
+    position: absolute!important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#carouselExampleCaptions .carousel-inner h5{
+    font-family: Impact, sans-serif;
+    font-size: 60px;
+    
+}
+
+
+#carouselExampleCaptions .carousel-inner button{
+    color: #ffffff;
+    border: 5px 8px;
+    border-color: #ffffff 1px solid;
+}
+/*news section*/
+#news h4{
+    font-family: Impact, sans-serif;
+}
+#news .col-md-4 img{
+    width: 250px;
+    height: 180px;
+}
+
+}
+
