@@ -13,13 +13,34 @@ body{
 
 }
 
-
-
-#nav{
-    font-size: small;
-    padding: 0px!important;
-    background-color:  #ffffff;
+h1,h2,h3,a{
+    font-family: Impact, sans-serif;
+    color: #30271c;
+}
+.btn-color{
+    background-color: #c7a17a;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 5px 10px;
+    font-family: Impact, sans-serif;
+}
+.btn-color:hover{
+    background-color: #c7a17a!important;
+    color: #30271c!important;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 5px 10px;
+    font-family: Impact, sans-serif;
+}
+.navbar-toggler{
    
+    font-size: 10px;
+}
+#nav{
+    padding: 2px;
 }
 #nav a{
     color: #30271c;
@@ -27,7 +48,7 @@ body{
     font-family: Impact, sans-serif;
 }
 #nav a:hover{
-    color:#c7a17a ;
+    color:#c7a17a;
     font-size: 10px;
     font-family: Impact, sans-serif;
 }
@@ -40,24 +61,7 @@ nav a .logo{
     width: 300px;
     height: 200px;
 }
-.btn-color{
-    background-color: #c7a17a;
-    color: #ffffff;
-    border: none;
-    border-radius: 0;
-    font-size: x-small;
-    padding: 5px 10px;
-    font-family: Impact, sans-serif;
-}
-.btn-color :hover{
-    background-color: #c7a17a;
-    color: #30271c;
-    border: none;
-    border-radius: 0;
-    font-size: x-small;
-    padding: 5px 10px;
-    font-family: Impact, sans-serif;
-}
+
 #reservation{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../image/city-4298285_1280.jpg);
     background-position: center;
@@ -87,13 +91,24 @@ nav a .logo{
 }
 
 /*manu*/
+#menu{
+    margin-top: 3px;
+}
 #menu h4{
     font-family: Impact, sans-serif;
     font-size: small;
     
 }
-#menu p{
-    
+
+#menu .card a{
+        background-color: #c7a17a;
+        color: #ffffff;
+        border: none;
+        border-radius: 0;
+        font-size: x-small;
+        padding: 5px 10px;
+        font-family: Impact, sans-serif;
+   
 }
 /*reservation*/
 #reservation h5{
@@ -133,9 +148,24 @@ nav a .logo{
 
 
 #carouselExampleCaptions .carousel-inner button{
+    background-color: #c7a17a;
     color: #ffffff;
-    border: 5px 8px;
-    border-color: #ffffff 1px solid;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 8px 14px;
+    font-family: Impact, sans-serif;
+}
+
+
+#carouselExampleCaptions .carousel-inner button:hover{
+    background-color: #c7a17a;
+    color: #30271c;
+    border: none;
+    border-radius: 0;
+    font-size: x-small;
+    padding: 8px 14px;
+    font-family: Impact, sans-serif;
 }
 /*news section*/
 #news h4{
@@ -145,6 +175,28 @@ nav a .logo{
     width: 250px;
     height: 180px;
 }
-
+#footer-section p,address{
+    font-size: xx-small;
+    font-family: inherit;
+    
+}
+#footer-section strong{
+    float: left;
+    
+}
+#footer-section span{
+    float: right;
+    color: #c7a17a;
+    
 }
 
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+}
+footer p{
+    padding-top: 12px;
+    font-size: x-small;
+}
